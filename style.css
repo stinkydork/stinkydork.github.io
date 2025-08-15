@@ -98,15 +98,6 @@ body {
   max-width:800px;
   margin:25px auto;
 }
-header {
-  display: flex;
-  flex-direction: column; /* stack logo and name vertically */
-  align-items: center;    /* center horizontally */
-  text-align: center;     /* center text inside elements */
-  background: rgba(0,0,0,.8);
-  padding: 25px;
-  color: #FFFFFF;
-}
 
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
