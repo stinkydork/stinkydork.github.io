@@ -138,4 +138,7 @@ ul.main-menu li a.active {
   display:block;
 }
 
+header {
+  text-align: center; /* centers the contents inside the header */
+}
 
