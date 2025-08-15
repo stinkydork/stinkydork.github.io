@@ -137,8 +137,3 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-
-header {
-  text-align: center; /* centers the contents inside the header */
-}
-
