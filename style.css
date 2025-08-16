@@ -109,6 +109,15 @@ body {
   object-fit: cover;    /* ensures it doesn’t stretch */
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;    /* stack elements vertically */
+  justify-content: center;   /* center vertically */
+  align-items: center;       /* center horizontally */
+  min-height: 80vh;          /* almost full screen height */
+  text-align: center;        /* centers text under photo */
+}
+
 
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
