@@ -99,6 +99,17 @@ body {
   margin:25px auto;
 }
 
+/* Test */
+.profile-pic {
+  width: 200px;        /* adjust width */
+  height: auto;        /* keeps original height ratio */
+  display: block;
+  margin: 0 auto 1rem auto; /* centers image and adds spacing below */
+  border-radius: 5px;   /* optional slight rounding */
+  object-fit: cover;    /* ensures it doesn’t stretch */
+}
+
+
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
   padding:25px;
